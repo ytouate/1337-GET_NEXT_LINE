@@ -6,7 +6,7 @@
 /*   By: ytouate <ytouate@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 14:03:04 by ytouate           #+#    #+#             */
-/*   Updated: 2021/12/04 16:34:57 by ytouate          ###   ########.fr       */
+/*   Updated: 2021/12/04 17:06:51 by ytouate          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ char	*loop(char *save, char *buffer, int byte, int fd)
 
 char	*get_next_line(int fd)
 {
-	static char		*save[1024];
+	static char		*save[OPEN_MAX];
 	char			*buffer;
 	char			*line;
 	int				byte;

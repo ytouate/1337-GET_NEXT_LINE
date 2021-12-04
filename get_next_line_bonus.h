@@ -6,7 +6,7 @@
 /*   By: ytouate <ytouate@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 14:02:01 by ytouate           #+#    #+#             */
-/*   Updated: 2021/12/04 14:29:08 by ytouate          ###   ########.fr       */
+/*   Updated: 2021/12/04 17:06:23 by ytouate          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <fcntl.h> 
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 
 char		*ft_strjoin(char *s1, char const *s2);
 int			ft_strchr(const char *s, int c);
